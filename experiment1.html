@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiement 1</title>
+    <link rel="stylesheet" href="experiment1.css">
+</head>
+
+<body>
+    <br>
+    <div>
+        <fieldset>
+            <h1 class="title" id="topcome">
+                <center>Test on Single Cylinder Diesel Engine <small>(Water Cooled)</small></center>
+            </h1>
+        </fieldset>
+    </div>
+
+    <br><br>
+    <div>
+        <fieldset class="aim">
+            <h2 class="topics">Aim:</h2>
+            <p>To conduct a test on a single cylinder vertical water cooled, four stroke cycle, stationary, constant
+                speed diesel engine at No load, 25%, 50%, 75% and Full Load condition.</p>
+        </fieldset>
+    </div>
+    <br><br>
+
+    <div>
+
+        <fieldset class="determine">
+            <h2 class="topics">To determine:</h2>
+            <ol>
+                <li><a href="#tab1" class="underremove"> Brake Power</a></li>
+                <li><a href="#tab1" class="underremove">Indicated Power</a></li>
+                <li><a href="#tab1" class="underremove">Mechanical Effeciency</a></li>
+                <li><a href="#tab1" class="underremove">Brake Thermal Effeciency</a></li>
+                <li><a href="#tab1" class="underremove">Indicated Thermal Effeciency</a></li>
+                <li><a href="#tab1" class="underremove">Total Fuel Consumption (Kg/hr)</a></li>
+                <li><a href="#tab1" class="underremove">Brake Specific Fuel Consumption (BSFC)</a></li>
+            </ol>
+        </fieldset>
+
+    </div>
+
+    <br><br>
+    <div>
+        <fieldset class="tobeplotted">
+            <h2 class="topics">Graphs to be plotted:</h2>
+            <ol type="i">
+                <li><a href="#graph1" class="underremove">Brake Power <strong>Vs</strong> M<sup>.</sup><sub>f</sub>
+                        (Kg/sec)</li></a>
+                <li><a href="#graph2" class="underremove">Percentage Load <strong>Vs</strong> Brake Power</li></a>
+                <li><a href="#graph3" class="underremove">Percentage Load <strong>Vs</strong> Indicated Power</li></a>
+                <li><a href="#graph4" class="underremove">Percentage Load <strong>Vs</strong> Mechanical Efficiency</li>
+                </a>
+                <li><a href="#graph5" class="underremove">Percentage Load <strong>Vs</strong> Brake Thermal Eficiency
+                </li></a>
+                <li><a href="#graph6" class="underremove">Percentage Load <strong>Vs</strong> Indicated Thermal
+                        Efficiency</li></a>
+                <li><a href="#graph7" class="underremove">Percentage Load <strong>Vs</strong> Brake Specific Fuel
+                        Consumption (BSFC)</li>
+                </a>
+                <li><a href="#graph8" class="underremove">Percentage Load <strong>Vs</strong> M<sup>.</sup><sub>f</sub>
+                        (Kg/sec)</li></a>
+            </ol>
+        </fieldset>
+
+    </div>
+    <br><br>
+
+    <div>
+
+        <fieldset class="sheets">
+            <h2 class="topics">Sheets to be made:</h2>
+            <ol>
+                <li><a href="#tab2" class="underremove">Energy balance or Heat balance sheet</a></li>
+            </ol>
+        </fieldset>
+
+    </div>
+    <br><br>
+
+    <div>
+
+        <fieldset class="engines">
+            <h2 class="topics">Engine & Dynamometer <em>(Hydraulic)</em> Specifications:</h2>
+            <ul>
+                <li>B.HP. = <strong>10 H.P</strong></li>
+                <li>R.P.M. = <strong>1500</strong></li>
+                <li>Fuel = <strong>High Speed Diesel</strong></li>
+                <li>Compression Ratio = <strong>16: 1</strong></li>
+                <li>Bore = <strong>110 mm <em>(Cylinder)</em></strong></li>
+                <li>Stroke = <strong>110 mm</strong></li>
+                <li>Dynamometer Arm Length = <strong>533.4 mm</strong></li>
+                <li>Dynanometer Flywheel Diameter = <strong>398 mm</strong></li>
+                <li>Perimeter of Plywheel = <strong>1260 mm</strong></li>
+                <li>Specific Gravity of Fuel = <strong>0.82</strong></li>
+                <li>Calorifie Value of Fuel = <strong>45.5 MJ/kg</strong></li>
+            </ul>
+        </fieldset>
+
+    </div>
+
+
+    <br><br>
+    <div>
+        <fieldset class="procedure">
+            <h2 class="topics">
+                Procedure to be followed:
+            </h2>
+            <ol>
+                <li>Ensure that all boundaries bolts, propeller shaft, bolts are properly tightened.</li>
+                <li>Keep the decompression lever in vertical ensure that engine stop lever. can be pulled towards
+                    engine is free and Cranking side for stopping the engine.</li>
+                <li>Crank the engine slowly till fuel starts drilling out from loosened loosened nut then tighten
+                    the nut.</li>
+                <li>Rotate the handle 5-6 rotation manually when flywheel has sufficient momentum make the
+                    decompression handle horizontal.</li>
+                <li>Handle will release automatically and come out.</li>
+                <li>Keep water circulation.</li>
+                <li>Start the engine and allow it to for 5 min in idling Condition.</li>
+                <li>Load the engine and rates of fuel and water take reading of flow of different points.</li>
+                <li>Stop the engine after releasing load.</li>
+            </ol>
+        </fieldset>
+    </div>
+
+    <br><br>
+    <div>
+        <fieldset class="observations">
+            <h2 class="topics">Observations:</h2>
+            <ol>
+                <li>P<sub>atmospheric</sub> = <strong>1 Bar</strong></li>
+                <li>T<sub>ambient</sub> = <strong>27<sup>o</sup>C</strong></li>
+                <li>Max. Load = <strong>8 Kg</strong></li>
+            </ol>
+        </fieldset>
+        <!-- for 0% load -->
+        <center>
+            <h3 class="cover">No Load Condition</h3>
+        </center>
+        <fieldset class="formf">
+            <h2 class="topics">Readings:</h2>
+            <form>
+                <!-- <label for="A"><strong>Input Load <em>(kg)</em>:</strong></label>
+                    <input type="number" id="a1">
+                    <br><br> -->
+                <center>
+                    <h3><strong>--- Dynamometer Section ---</strong></h3>
+                </center>
+                <center><label for="A-1">1. Engine Speed <em>(rpm):</em></label><br></center><br>
+                <center><input type="number" id="a11"></center>
+                <br><br>
+                <center><label for="A-2">2. Load on Dynamometer <em>(Kg):</em></label><br></center><br>
+                <center><input type="number" id="a1"></center>
+                <br><br>
+                <hr>
+                <center>
+                    <h3><strong>--- Engine Section ---</strong></h3>
+                </center>
+                <center><label for="B-1">1. Time for 50cc fuel consumption <em>(seconds):</em></label><br></center><br>
+                <center><input type="number" id="b11"></center>
+                <br><br>
+                <center><label for="B-2">2. Exhaust Gas Temperature <em>(inlet to calorimeter):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b21"></center>
+                <br><br>
+                <center><label for="B-3">3. Temperature of Inlet water to Jacket<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b31"></center>
+                <br><br>
+                <center><label for="B-4">4. Temperature of Outlet water from Jacket<em>(
+                            <sup>o</sup>C):</em></label><br></center><br>
+                <center><input type="number" id="b41"></center>
+                <br><br>
+                <center><label for="B-5">5. Time for 5 litres water from calorimeter <em>(seconds):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b51"></center>
+                <br><br>
+                <hr>
+                <center>
+                    <h3><strong>--- Calorimeter Section ---</strong></h3>
+                </center>
+                <center><label for="C-1">1. Temperature of Exhuast Gas at Inlet<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-2">2. Temperature of Exhuast Gas at Outet<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-3">3. Inlet Water temperature to calorimeter<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-4">4. Outlet Water temperature to calorimeter<em>(
+                            <sup>o</sup>C):</em></label><br></center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-5">5. Time for 5 litres water from calorimeter <em>(seconds):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+        </fieldset>
+        <br><br>
+        <!-- for 25% load -->
+        <center>
+            <h3 class="cover">25% Load</h3>
+        </center>
+
+        <fieldset class="formf">
+            <form>
+                <!-- <label for="A"><strong>Input Load <em>(kg)</em>:</strong></label>
+                    <input type="number" id="a2"> -->
+                <center>
+                    <h3><strong>--- Dynamometer Section ---</strong></h3>
+                </center>
+                <center><label for="A-1">1. Engine Speed <em>(rpm):</em></label><br></center><br>
+                <center><input type="number" id="a12"></center>
+                <br><br>
+                <center><label for="A-2">2. Load on Dynamometer <em>(Kg):</em></label><br></center><br>
+                <center><input type="number" id="a2"></center>
+                <br><br>
+                <hr>
+                <center>
+                    <h3><strong>--- Engine Section ---</strong></h3>
+                </center>
+                <center><label for="B-1">1. Time for 50cc fuel consumption <em>(seconds):</em></label><br></center><br>
+                <center><input type="number" id="b12"></center>
+                <br><br>
+                <center><label for="B-2">2. Exhaust Gas Temperature <em>(inlet to calorimeter):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b22"></center>
+                <br><br>
+                <center><label for="B-3">3. Temperature of Inlet water to Jacket<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b32"></center>
+                <br><br>
+                <center><label for="B-4">4. Temperature of Outlet water from Jacket<em>(
+                            <sup>o</sup>C):</em></label><br></center><br>
+                <center><input type="number" id="b42"></center>
+                <br><br>
+                <center><label for="B-5">5. Time for 5 litres water from calorimeter <em>(seconds):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b52"></center>
+                <br><br>
+                <hr>
+                <center>
+                    <h3><strong>--- Calorimeter Section ---</strong></h3>
+                </center>
+                <center><label for="C-1">1. Temperature of Exhuast Gas at Inlet<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-2">2. Temperature of Exhuast Gas at Outet<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-3">3. Inlet Water temperature to calorimeter<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-4">4. Outlet Water temperature to calorimeter<em>(
+                            <sup>o</sup>C):</em></label><br></center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-5">5. Time for 5 litres water from calorimeter <em>(seconds):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+        </fieldset>
+        <br><br>
+        <!-- for 50% load -->
+        <center>
+            <h3 class="cover">50% Load</h3>
+        </center>
+
+        <fieldset class="formf">
+            <form>
+                <!-- <label for="A"><strong>Input Load <em>(kg)</em>:</strong></label>
+                    <input type="number" id="a3">
+                    <br><br> -->
+                <center>
+                    <h3><strong>--- Dynamometer Section ---</strong></h3>
+                </center>
+                <center><label for="A-1">1. Engine Speed <em>(rpm):</em></label><br></center><br>
+                <center><input type="number" id="a13"></center>
+                <br><br>
+                <center><label for="A-2">2. Load on Dynamometer <em>(Kg):</em></label><br></center><br>
+                <center><input type="number" id="a3"></center>
+                <br><br>
+                <hr>
+                <center>
+                    <h3><strong>--- Engine Section ---</strong></h3>
+                </center>
+                <center><label for="B-1">1. Time for 50cc fuel consumption <em>(seconds):</em></label><br></center><br>
+                <center><input type="number" id="b13"></center>
+                <br><br>
+                <center><label for="B-2">2. Exhaust Gas Temperature <em>(inlet to calorimeter):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b23"></center>
+                <br><br>
+                <center><label for="B-3">3. Temperature of Inlet water to Jacket<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b33"></center>
+                <br><br>
+                <center><label for="B-4">4. Temperature of Outlet water from Jacket<em>(
+                            <sup>o</sup>C):</em></label><br></center><br>
+                <center><input type="number" id="b43"></center>
+                <br><br>
+                <center><label for="B-5">5. Time for 5 litres water from calorimeter <em>(seconds):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b53"></center>
+                <br><br>
+                <hr>
+                <center>
+                    <h3><strong>--- Calorimeter Section ---</strong></h3>
+                </center>
+                <center><label for="C-1">1. Temperature of Exhuast Gas at Inlet<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-2">2. Temperature of Exhuast Gas at Outet<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-3">3. Inlet Water temperature to calorimeter<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-4">4. Outlet Water temperature to calorimeter<em>(
+                            <sup>o</sup>C):</em></label><br></center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-5">5. Time for 5 litres water from calorimeter <em>(seconds):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+        </fieldset>
+        <br><br>
+        <!-- for 75% load -->
+        <center>
+            <h3 class="cover">75% Load</h3>
+        </center>
+
+        <fieldset class="formf">
+            <form>
+                <!-- <label for="A"><strong>Input Load <em>(kg)</em>:</strong></label>
+                    <input type="number" id="a4">
+                    <br><br> -->
+                <center>
+                    <h3><strong>--- Dynamometer Section ---</strong></h3>
+                </center>
+                <center><label for="A-1">1. Engine Speed <em>(rpm):</em></label><br></center><br>
+                <center><input type="number" id="a14"></center>
+                <br><br>
+                <center><label for="A-2">2. Load on Dynamometer <em>(Kg):</em></label><br></center><br>
+                <center><input type="number" id="a4"></center>
+                <br><br>
+                <hr>
+                <center>
+                    <h3><strong>--- Engine Section ---</strong></h3>
+                </center>
+                <center><label for="B-1">1. Time for 50cc fuel consumption <em>(seconds):</em></label><br></center><br>
+                <center><input type="number" id="b14"></center>
+                <br><br>
+                <center><label for="B-2">2. Exhaust Gas Temperature <em>(inlet to calorimeter):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b24"></center>
+                <br><br>
+                <center><label for="B-3">3. Temperature of Inlet water to Jacket<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b34"></center>
+                <br><br>
+                <center><label for="B-4">4. Temperature of Outlet water from Jacket<em>(
+                            <sup>o</sup>C):</em></label><br></center><br>
+                <center><input type="number" id="b44"></center>
+                <br><br>
+                <center><label for="B-5">5. Time for 5 litres water from calorimeter <em>(seconds):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b54"></center>
+                <br><br>
+                <hr>
+                <center>
+                    <h3><strong>--- Calorimeter Section ---</strong></h3>
+                </center>
+                <center><label for="C-1">1. Temperature of Exhuast Gas at Inlet<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-2">2. Temperature of Exhuast Gas at Outet<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-3">3. Inlet Water temperature to calorimeter<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-4">4. Outlet Water temperature to calorimeter<em>(
+                            <sup>o</sup>C):</em></label><br></center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-5">5. Time for 5 litres water from calorimeter <em>(seconds):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+        </fieldset>
+        <br><br>
+        <!-- for 100% load -->
+        <center>
+            <h3 class="cover">100% Load</h3>
+        </center>
+
+        <fieldset class="formf">
+            <form>
+                <!-- <label for="A"><strong>Input Load <em>(kg)</em>:</strong></label>
+                    <input type="number" id="a5">
+                    <br><br> -->
+                <center>
+                    <h3><strong>--- Dynamometer Section ---</strong></h3>
+                </center>
+                <center><label for="A-1">1. Engine Speed <em>(rpm):</em></label><br></center><br>
+                <center><input type="number" id="a15"></center>
+                <br><br>
+                <center><label for="A-2">2. Load on Dynamometer <em>(Kg):</em></label><br></center><br>
+                <center><input type="number" id="a5"></center>
+                <br><br>
+                <hr>
+                <center>
+                    <h3><strong>--- Engine Section ---</strong></h3>
+                </center>
+                <center><label for="B-1">1. Time for 50cc fuel consumption <em>(seconds):</em></label><br></center><br>
+                <center><input type="number" id="b15"></center>
+                <br><br>
+                <center><label for="B-2">2. Exhaust Gas Temperature <em>(inlet to calorimeter):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b25"></center>
+                <br><br>
+                <center> <label for="B-3">3. Temperature of Inlet water to Jacket<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center> <input type="number" id="b35"></center>
+                <br><br>
+                <center><label for="B-4">4. Temperature of Outlet water from Jacket<em>(
+                            <sup>o</sup>C):</em></label><br></center><br>
+                <center><input type="number" id="b45"></center>
+                <br><br>
+                <center><label for="B-5">5. Time for 5 litres water from calorimeter <em>(seconds):</em></label><br>
+                </center><br>
+                <center><input type="number" id="b55"></center>
+                <br><br>
+                <hr>
+                <center>
+                    <h3><strong>--- Calorimeter Section ---</strong></h3>
+                </center>
+                <center><label for="C-1">1. Temperature of Exhuast Gas at Inlet<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-2">2. Temperature of Exhuast Gas at Outet<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+                <center><label for="C-3">3. Inlet Water temperature to calorimeter<em>( <sup>o</sup>C):</em></label><br>
+                </center><br>
+                <center> <input type="number"></center>
+                <br><br>
+                <center><label for="C-4">4. Outlet Water temperature to calorimeter<em>(
+                            <sup>o</sup>C):</em></label><br></center><br>
+                <center> <input type="number"></center>
+                <br><br>
+                <center><label for="C-5">5. Time for 5 litres water from calorimeter <em>(seconds):</em></label><br>
+                </center><br>
+                <center><input type="number"></center>
+                <br><br>
+        </fieldset>
+        <br>
+        <br>
+        <br>
+
+
+
+
+        <center><input type="button" value="CALCULATE" onclick="" id="btn_Smp_mf" class="cal_button"></center>
+        </form>
+
+    </div>
+
+
+
+
+
+
+    <div class="tablo">
+        <fieldset class="tab101">
+            <h2 class="topics">Calculations:</h2>
+            <ul>
+                <li>
+                    <h3>Calculations Summary</h3>
+                </li>
+            </ul>
+            <table align="center">
+                <thead class="thead" id="tab1">
+                    <tr>
+                        <th>Load</th>
+                        <th>0%</th>
+                        <th>25%</th>
+                        <th>50%</th>
+                        <th>75%</th>
+                        <th>100%</th>
+                        <th>Formulae</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            </center>M<sup>.</sup><sub>f</sub> (Kg/sec)</center>
+                        </td>
+                        <td id="sample1">--</td>
+                        <td id="sample3">--</td>
+                        <td id="sample5">--</td>
+                        <td id="sample7">--</td>
+                        <td id="sample9">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>Torque (N-m)</center>
+                        </td>
+                        <td id="sample2">--</td>
+                        <td id="sample4">--</td>
+                        <td id="sample6">--</td>
+                        <td id="sample8">--</td>
+                        <td id="sample10">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>Brake Power (KW)</center>
+                        </td>
+                        <td id="obp1">--</td>
+                        <td id="obp2">--</td>
+                        <td id="obp3">--</td>
+                        <td id="obp4">--</td>
+                        <td id="obp5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>Indicated Power (KW)</center>
+                        </td>
+                        <td id="ip1">--</td>
+                        <td id="ip2">--</td>
+                        <td id="ip3">--</td>
+                        <td id="ip4">--</td>
+                        <td id="ip5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>IMEP (KPa)</center>
+                        </td>
+                        <td id="imep_val1">--</td>
+                        <td id="imep_val2">--</td>
+                        <td id="imep_val3">--</td>
+                        <td id="imep_val4">--</td>
+                        <td id="imep_val5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>Heat Supplied (KW)</center>
+                        </td>
+                        <td id="supplied_1">--</td>
+                        <td id="supplied_2">--</td>
+                        <td id="supplied_3">--</td>
+                        <td id="supplied_4">--</td>
+                        <td id="supplied_5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>Brake Thermal Effeciency, &eta; (%)</center>
+                        </td>
+                        <td id="bth_1">--</td>
+                        <td id="bth_2">--</td>
+                        <td id="bth_3">--</td>
+                        <td id="bth_4">--</td>
+                        <td id="bth_5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>BSFC (Kg/Kw-hr)</center>
+                        </td>
+                        <td id="bsfc_1">--</td>
+                        <td id="bsfc_2">--</td>
+                        <td id="bsfc_3">--</td>
+                        <td id="bsfc_4">--</td>
+                        <td id="bsfc_5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>Mechanical Effeciency (%)</center>
+                        </td>
+                        <td id="meff_1">--</td>
+                        <td id="meff_2">--</td>
+                        <td id="meff_3">--</td>
+                        <td id="meff_4">--</td>
+                        <td id="meff_5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>Indicated Thermal Effeciency (%)</center>
+                        </td>
+                        <td id="itf_1">--</td>
+                        <td id="itf_2">--</td>
+                        <td id="itf_3">--</td>
+                        <td id="itf_4">--</td>
+                        <td id="itf_5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+        </fieldset>
+    </div>
+
+
+
+
+
+
+    <!-- Heat balance sheet table -->
+
+
+
+    <div class="tablo">
+        <fieldset class="tab102">
+            <ul>
+                <li>
+                    <h3>Energy Balance or Heat Balance Sheet</h3>
+                </li>
+            </ul>
+            <table align="center">
+                <thead id="tab2">
+                    <tr>
+                        <th>Load</th>
+                        <th>0%</th>
+                        <th>25%</th>
+                        <th>50%</th>
+                        <th>75%</th>
+                        <th>100%</th>
+                        <th>Formulae</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            </center>Heat Supplied (KJ/min)</center>
+                        </td>
+                        <td id="hsmin_1">--</td>
+                        <td id="hsmin_2">--</td>
+                        <td id="hsmin_3">--</td>
+                        <td id="hsmin_4">--</td>
+                        <td id="hsmin_5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>Brake Power Heat (KJ/min)</center>
+                        </td>
+                        <td id="bph_1">--</td>
+                        <td id="bph_2">--</td>
+                        <td id="bph_3">--</td>
+                        <td id="bph_4">--</td>
+                        <td id="bph_5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>Heat gained by Cooling Jacket (Kg/min)</center>
+                        </td>
+                        <td id="hgc_1">--</td>
+                        <td id="hgc_2">--</td>
+                        <td id="hgc_3">--</td>
+                        <td id="hgc_4">--</td>
+                        <td id="hgc_5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>Heat in Exhaust Gases (Kg/min)</center>
+                        </td>
+                        <td id="heg_1">--</td>
+                        <td id="heg_2">--</td>
+                        <td id="heg_3">--</td>
+                        <td id="heg_4">--</td>
+                        <td id="heg_5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            </center>Miscellaneous Heat Loss (Kg/min)</center>
+                        </td>
+                        <td id="mhl_1">--</td>
+                        <td id="mhl_2">--</td>
+                        <td id="mhl_3">--</td>
+                        <td id="mhl_4">--</td>
+                        <td id="mhl_5">--</td>
+                        <td><a href="#">View</a></td>
+                    </tr>
+                </tbody>
+            
+            </table>
+            <br>
+        </fieldset>
+    </div>
+
+
+
+
+    <br><br>
+
+
+
+
+    <h2 class="topics">Graphs:</h2>
+
+
+    <div id="graph1" class="chartBox">
+        <fieldset>
+            <canvas id="myChart"></canvas>
+        </fieldset>
+    </div>
+    <br>
+    <center><input type="button" value="Brake Power Vs M.f (Kg/sec)" onclick="" id="bpvsmf" class="graph_btn"></center>
+
+    <br>
+
+    <div id="graph2" class="chartBox">
+        <fieldset>
+            <canvas id="myChart2"></canvas>
+        </fieldset>
+    </div>
+    <br>
+    <center><input type="button" value="Percentage Load Vs Brake Power" onclick="" id="loadvsbp" class="graph_btn">
+    </center>
+    <br>
+
+    <div id="graph3" class="chartBox">
+        <fieldset>
+            <canvas id="myChart3"></canvas>
+        </fieldset>
+    </div>
+    <br>
+    <center><input type="button" value="Percentage Load Vs Indicated Power" onclick="" id="loadvsip" class="graph_btn">
+    </center>
+    <br>
+
+    <div id="graph4" class="chartBox">
+        <fieldset>
+            <canvas id="myChart4"></canvas>
+        </fieldset>
+    </div>
+    <br>
+    <center><input type="button" value="Percentage Load Vs Mechanical Efficiency" onclick="" id="loadvsnmech"
+            class="graph_btn"></center>
+    <br>
+
+    <div id="graph5" class="chartBox">
+        <fieldset>
+            <canvas id="myChart5"></canvas>
+        </fieldset>
+    </div>
+    <br>
+    <center><input type="button" value="Percentage Load Vs Brake Thermal Eficiency" onclick="" id="loadvsnbth"
+            class="graph_btn"></center>
+    <br>
+
+    <div id="graph6" class="chartBox">
+        <fieldset>
+            <canvas id="myChart6"></canvas>
+        </fieldset>
+    </div>
+    <br>
+    <center><input type="button" value="Percentage Load Vs Indicated Thermal Efficiency" onclick="" id="loadvsnith"
+            class="graph_btn"></center>
+    <br>
+
+    <div id="graph7" class="chartBox">
+        <fieldset>
+            <canvas id="myChart7"></canvas>
+        </fieldset>
+    </div>
+    <br>
+    <center><input type="button" value="Percentage Load Vs Brake Specific Fuel Consumption (BSFC)" onclick=""
+            id="loadvsbsfc" class="graph_btn"></center>
+    <br>
+
+    <div id="graph8" class="chartBox">
+        <fieldset>
+            <canvas id="myChart8"></canvas>
+        </fieldset>
+    </div>
+    <br>
+
+    <center><input type="button" value="Percentage Load Vs M.f (Kg/sec)" onclick="" id="loadvsmf" class="graph_btn">
+    </center>
+    <br><br><br>
+
+
+    <h4 class="cover2">IMPORTANT: Want to have a copy of your experiment performed?</h4>
+    <input type="button" value="Download my Copy!" onclick="window.print()" class="print_btn">
+
+
+
+
+
+    <!-- creators -->
+
+    <div>
+
+    </div>
+
+
+
+
+    <!-- <script src="js/experiment1.js"></script> -->
+    <script src="calculations.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</body>
+<footer>
+    <p>&copy; 2023 Digital Lab by T.Y.Mech, WCE'24. All rights reserved.</p>
+    <p>This site is developed as Mini-Project 4 for Digitalizing a Lab Manual Practical</p>
+    <p>Team Members:</p>
+    <ul>
+        <li class="hello"><a href="https://www.linkedin.com/in/kirankamble1401">Kiran Kamble (2020BTEME00004)</a></li>
+        <li class="hello"><a href="https://www.linkedin.com/in/mrunmayee-kate-491baa229">Mrunmayee Kate (2020BTEME00031)</a></li>
+        <li class="hello"><a href="https://www.linkedin.com/in/rushikesh-khoje-458557209">Rushikesh Khoje (2020BTEME00044)</a></li>
+        <li class="hello"><a href="https://www.linkedin.com/in/shital-kumbhar-3b9924263">Shital Kumbhar (2020BTEME00052)</a></li>
+        <li class="hello"><a href="https://www.linkedin.com/in/ashwinmadane">Ashwin Madane (21220007)</a></li>
+    </ul>
+    <p>Under the Guidance of:</p>
+    <p>Mr. S. P. Nevagi</p>
+    <center><h3 class="topgo"> <a href="#topcome"> Go back to TOP &uarr;</a></h3></center>
+</footer>
+
+</html>

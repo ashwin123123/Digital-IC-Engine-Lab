@@ -1,0 +1,497 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana; */
+    scroll-behavior: smooth;
+
+}
+
+body {
+background-image: url("https://i.pinimg.com/564x/fc/6e/ae/fc6eae64ab3c895d0d0ff2212c80dca1.jpg");
+}
+
+fieldset {
+    background-color: #fff;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+
+    text-align: left;
+    /* getscancss box shadow */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background-color:#f1f1f1; */
+
+
+}
+
+
+.formf {
+    background-color: #fff;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 260px;
+    margin-right: 260px;
+
+    text-align: left;
+    /* getscancss box shadow */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background-color:#f1f1f1; */
+
+}
+
+.aim {
+    border-radius: 15px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.determine {
+    border-radius: 15px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.tobeplotted {
+    border-radius: 15px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.sheets {
+    border-radius: 15px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.engines {
+    border-radius: 15px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.procedure {
+    border-radius: 15px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.observations {
+    border-radius: 15px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.cover {
+    box-shadow: rgba(255, 255, 255, 0.9) 0px 3px 8px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+.cover2 {
+    box-shadow: rgba(255, 255, 255, 0.9) 0px 3px 8px;
+    border-radius: 12px;
+    box-sizing: border-box;
+    background-color: white;
+    /* margin-left: 550px;
+   margin-right: 550px; */
+    padding: 10px;
+    margin-right: 820px;
+}
+
+.tab101 {
+    background-color: #fff;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+
+    text-align: left;
+    /* getscancss box shadow */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.tab102 {
+    background-color: #fff;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 240px;
+    margin-right: 240px;
+
+    text-align: left;
+    /* getscancss box shadow */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+input {
+    border-radius: 8px;
+    color: #fff;
+    background-color: #dbdbc9fd;
+    /* transition: all 0.3s ease; */
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-shadow: 1px 1px 12px #c77474; */
+    letter-spacing: 1px;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 8px;
+    font-size: larger;
+    text-align: center;
+}
+
+center h3 {
+    font-size: 20px;
+    /* text-shadow: 0px 0px 2px #8b8383; */
+    text-transform: uppercase;
+}
+
+hr {
+    margin-left: 40px;
+    margin-right: 40px;
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 3px 8px;
+}
+
+h3 strong {
+    font-size: 25px;
+    text-shadow: 0px 0px 1px #8b8383;
+}
+
+.topics {
+    font-size: 25px;
+    text-shadow: 0px 0px 1px #8b8383;
+}
+
+.title {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* box-shadow: rgba(172, 86, 86, 0.9) 0px 3px 8px;
+   border-radius: 12px;
+   box-sizing: border-box; */
+    margin-top: -3px;
+    margin-bottom: -3px;
+    
+}
+
+.underremove {
+    text-decoration: none;
+    color: black;
+}
+
+.underremove:hover {
+    transform: translateY(-2px);
+}
+
+/* cal_button CSS */
+.cal_button {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    /* display: inline-flex; */
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.cal_button:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.cal_button:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.cal_button:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+/* graph_btn CSS */
+.graph_btn {
+    align-items: center;
+    appearance: none;
+    background-color: #FCFCFD;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.graph_btn:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.graph_btn:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.graph_btn:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+
+
+/* TABLE CHI CSS */
+
+.tablo {
+    margin: 20px;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+.tablo th {
+    background-color: #c8e3f3;
+    color: #9c9494;
+    font-weight: bold;
+    padding: 8px;
+    color: black;
+}
+
+.tablo td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tablo tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tablo tr:hover {
+    background-color: #ddd;
+}
+
+.tablo #sample1,
+.tablo #sample2,
+.tablo #sample3,
+.tablo #sample4,
+.tablo #sample5,
+.tablo #sample6,
+.tablo #sample7,
+.tablo #sample8,
+.tablo #sample9,
+.tablo #sample10,
+.tablo #obp1,
+.tablo #obp2,
+.tablo #obp3,
+.tablo #obp4,
+.tablo #obp5,
+.tablo #ip1,
+.tablo #ip2,
+.tablo #ip3,
+.tablo #ip4,
+.tablo #ip5,
+.tablo #imep_val1,
+.tablo #imep_val2,
+.tablo #imep_val3,
+.tablo #imep_val4,
+.tablo #imep_val5,
+.tablo #supplied_1,
+.tablo #supplied_2,
+.tablo #supplied_3,
+.tablo #supplied_4,
+.tablo #supplied_5,
+.tablo #bth_1,
+.tablo #bth_2,
+.tablo #bth_3,
+.tablo #bth_4,
+.tablo #bth_5,
+.tablo #bsfc_1,
+.tablo #bsfc_2,
+.tablo #bsfc_3,
+.tablo #bsfc_4,
+.tablo #bsfc_5,
+.tablo #meff_1,
+.tablo #meff_2,
+.tablo #meff_3,
+.tablo #meff_4,
+.tablo #meff_5,
+.tablo #itf_1,
+.tablo #itf_2,
+.tablo #itf_3,
+.tablo #itf_4,
+.tablo #hsmin_1,
+.tablo #hsmin_2,
+.tablo #hsmin_3,
+.tablo #hsmin_4,
+.tablo #hsmin_5,
+.tablo #bph_1,
+.tablo #bph_2,
+.tablo #bph_3,
+.tablo #bph_4,
+.tablo #bph_5,
+.tablo #hgc_1,
+.tablo #hgc_2,
+.tablo #hgc_3,
+.tablo #hgc_4,
+.tablo #hgc_5,
+.tablo #heg_1,
+.tablo #heg_2,
+.tablo #heg_3,
+.tablo #heg_4,
+.tablo #heg_5,
+.tablo #mhl_1,
+.tablo #mhl_2,
+.tablo #mhl_3,
+.tablo #mhl_4,
+.tablo #mhl_5,
+.tablo #itf_5 {
+    color: rgb(77, 1, 1);
+}
+
+
+/* print_btn */
+/* graph_btn CSS */
+.print_btn {
+    align-items: center;
+    appearance: none;
+    background-color: #74fc62;
+    border-radius: 18px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #3f038d;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono", monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s, transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+}
+
+.print_btn:focus {
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.print_btn:hover {
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+}
+
+.print_btn:active {
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.chartBox{
+    border-radius: 15px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+footer{
+    /* margin-left: 50px;
+    margin-right: 50px;
+    color: white;
+    background-color: grey;
+    margin-bottom: -20px;
+    border-radius: 6px; */
+    background-color: #f2f2f2;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+  border-radius: 1px;
+  text-align: left;
+  margin-bottom: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+margin-bottom: -10px;
+  
+  
+  
+}
+footer p{
+    color: black;
+    text-decoration: none;
+
+}
+.hello{
+    color: black;
+    text-decoration: black;
+}
+.hello:hover {
+    color: black;
+    text-decoration: underline;
+    transform: translateY(-2px);
+    
+}
+.topgo{
+color: rgb(0, 0, 0);
+font-size: larger;
+color: rgb(218, 28, 28);
+text-decoration: none;
+transform: translateY(-2px);
+text-transform: uppercase;
+color: red;
+}
+.topgo a{
+    text-decoration: none;
+    
+}
